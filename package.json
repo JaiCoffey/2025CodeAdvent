@@ -1,0 +1,21 @@
+{
+  "name": "2025codeadvent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Day1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaiCoffey/2025CodeAdvent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JaiCoffey/2025CodeAdvent/issues"
+  },
+  "homepage": "https://github.com/JaiCoffey/2025CodeAdvent#readme"
+}
