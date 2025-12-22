@@ -78,8 +78,9 @@ L= Subtract the next int
 appply these rules to the data set in Day1.txt
 
 **To Do**
--[X] Get data set into code base 
--[X] itterate through data
--[] split each line into control char (R/L) and amount(the int on each line)
--[] apply math to var based on each line
--[] test
+
+- [X] Get data set into code base 
+- [X] itterate through data
+- [] split each line into control char (R/L) and amount(the int on each line)
+- [] apply math to var based on each line
+- [] test
