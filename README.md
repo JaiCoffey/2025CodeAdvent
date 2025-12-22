@@ -67,10 +67,14 @@ Because the dial points at 0 a total of three times during this process, the pas
 
 Analyze the rotations in your attached document. What's the actual password to open the door?
 
-**TLDR** 
-Based o nthe following rules caculate how many times the number 0 appears
+**TLDR**
+
+Based onthe following rules caculate how many times the number 0 appears
+
 R= add the next Int
+
 L= Subtract the next int
+
 appply these rules to the data set in Day1.txt
 
 **To Do**
