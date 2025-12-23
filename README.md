@@ -7,8 +7,9 @@ I will paste the questions in this readme for each day and then link to the appl
 My first Pass will be done in node and i plan to go back and re solve each problem in python.
 I will also give a small write up / Reflection for each day/ problem.
 
-## Day 1
-### The Problem:
+## Day 1 
+
+### Part1:
 --- Day 1: Secret Entrance ---
 The Elves have good news and bad news.
 
@@ -41,39 +42,61 @@ You could follow the instructions, but your recent required official North Pole 
 For example, suppose the attached document contained the following rotations:
 
 L68
+
 L30
+
 R48
+
 L5
+
 R60
+
 L55
+
 L1
+
 L99
+
 R14
+
 L82
+
 Following these rotations would cause the dial to move as follows:
 
 The dial starts by pointing at 50.
+
 The dial is rotated L68 to point at 82.
+
 The dial is rotated L30 to point at 52.
+
 The dial is rotated R48 to point at 0.
+
 The dial is rotated L5 to point at 95.
+
 The dial is rotated R60 to point at 55.
+
 The dial is rotated L55 to point at 0.
+
 The dial is rotated L1 to point at 99.
+
 The dial is rotated L99 to point at 0.
+
 The dial is rotated R14 to point at 14.
+
 The dial is rotated L82 to point at 32.
+
 Because the dial points at 0 a total of three times during this process, the password in this example is 3.
 
 Analyze the rotations in your attached document. What's the actual password to open the door?
 
 **TLDR**
 
-Based onthe following rules caculate how many times the number 0 appears
+Based on the following rules caculate how many times the number 0 appears
 
-R= add the next Int
+R= subtract the next Int
 
-L= Subtract the next int
+L= add the next int
+keep int between 0 and 100
 
 appply these rules to the data set in Day1.txt
 
@@ -81,6 +104,15 @@ appply these rules to the data set in Day1.txt
 
 - [X] Get data set into code base 
 - [X] itterate through data
-- [] split each line into control char (R/L) and amount(the int on each line)
-- [] apply math to var based on each line
-- [] test
+- [x] split each line into control char (R/L) and amount(the int on each line)
+- [x] apply math to var based on each line
+- [x] test
+
+**Summary**
+upon first look at this problem i mis understood the task at hand and it took me a while too understand what was needed
+there are two paths as i see it you can either build ther math logic to keep the dial count between 0 and 99 OR you can Devide the count by 100 and if the remander is 0 then count that as a 0 iteration
+for my first pass in node i chose to do that as it was more straight forward i plan to fo the wrapping logic when i come back and do this with python.
+
+I suspect we could also brute force this somehow with how relatively small the data set is but i dont like that answer. 
+
+Over all this puzzel was fun and challenging i look forward to how this will scale up
