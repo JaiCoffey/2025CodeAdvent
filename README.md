@@ -109,10 +109,13 @@ appply these rules to the data set in Day1.txt
 - [x] test
 
 **Summary**
-upon first look at this problem i mis understood the task at hand and it took me a while too understand what was needed
-there are two paths as i see it you can either build ther math logic to keep the dial count between 0 and 99 OR you can Devide the count by 100 and if the remander is 0 then count that as a 0 iteration
-for my first pass in node i chose to do that as it was more straight forward i plan to fo the wrapping logic when i come back and do this with python.
+
+upon first look at this problem i misunderstood the task at hand and it took me a while too understand what was needed.
+
+there are two paths as i see it you can either build the math logic to keep the dial count between 0 and 99 OR you can divide the count by 100 and if the remander is 0 then count that as a 0 iteration.
+
+for my first pass in node i chose to divide by 100 as it was more straight forward i plan to build the wrapping logic when i come back and do this with python.
 
 I suspect we could also brute force this somehow with how relatively small the data set is but i dont like that answer. 
 
-Over all this puzzel was fun and challenging i look forward to how this will scale up
+Over all this puzzel was fun and challenging i look forward to how this will scale up.
